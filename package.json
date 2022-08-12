@@ -1,12 +1,12 @@
 {
-  "name": "label-manager",
-  "version": "1.0.1",
+  "name": "strapi-plugin-label-manager",
+  "version": "1.0.0",
   "description": "Manage all your app labels from a single spreadsheet.",
   "strapi": {
-    "name": "label-manager",
+    "name": "Strapi Label Manager",
     "description": "Manage all your app labels from a single spreadsheet.",
     "kind": "plugin",
-    "displayName": "Label Manager"
+    "displayName": "Strapi Label Manager"
   },
   "dependencies": {},
   "author": {
