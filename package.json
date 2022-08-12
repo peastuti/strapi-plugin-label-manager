@@ -1,6 +1,6 @@
 {
   "name": "label-manager",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Manage all your app labels from a single spreadsheet.",
   "strapi": {
     "name": "label-manager",
