@@ -8,15 +8,26 @@
     "kind": "plugin",
     "displayName": "Strapi Label Manager"
   },
+  "keywords": [
+    "strapi",
+    "plugin",
+    "label",
+    "manager"
+  ],
   "dependencies": {},
   "author": {
-    "name": "Giuseppe Astuti"
+    "name": "peastuti",
+    "url": "https://github.com/peastuti"
   },
   "maintainers": [
     {
-      "name": "Giuseppe Astuti"
+      "name": "peastuti"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peastuti/strapi-plugin-label-manager"
+  },
   "engines": {
     "node": ">=14.19.1 <=16.x.x",
     "npm": ">=6.0.0"
