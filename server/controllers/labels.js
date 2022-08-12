@@ -4,7 +4,7 @@ module.exports = {
   async locales(ctx) {
     try {
       return await strapi
-        .plugin("label-manager")
+        .plugin("strapi-plugin-label-manager")
         .service("labels")
         .locales(ctx.query);
     } catch (err) {
@@ -15,7 +15,7 @@ module.exports = {
   async find(ctx) {
     try {
       return await strapi
-        .plugin("label-manager")
+        .plugin("strapi-plugin-label-manager")
         .service("labels")
         .find(ctx.query);
     } catch (err) {
@@ -26,7 +26,7 @@ module.exports = {
   async delete(ctx) {
     try {
       ctx.body = await strapi
-        .plugin("label-manager")
+        .plugin("strapi-plugin-label-manager")
         .service("labels")
         .delete(ctx.params.key);
     } catch (err) {
@@ -37,7 +37,7 @@ module.exports = {
   async create(ctx) {
     try {
       ctx.body = await strapi
-        .plugin("label-manager")
+        .plugin("strapi-plugin-label-manager")
         .service("labels")
         .create(ctx.request.body);
     } catch (err) {
@@ -48,7 +48,7 @@ module.exports = {
   async update(ctx) {
     try {
       ctx.body = await strapi
-        .plugin("label-manager")
+        .plugin("strapi-plugin-label-manager")
         .service("labels")
         .update(ctx.params.id, ctx.request.body);
     } catch (err) {
