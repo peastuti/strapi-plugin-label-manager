@@ -1,0 +1,25 @@
+{
+  "name": "label-manager",
+  "version": "0.0.1",
+  "description": "Manage all your app labels from a single spreadsheet.",
+  "strapi": {
+    "name": "label-manager",
+    "description": "Manage all your app labels from a single spreadsheet.",
+    "kind": "plugin",
+    "displayName": "Label Manager"
+  },
+  "dependencies": {},
+  "author": {
+    "name": "Giuseppe Astuti"
+  },
+  "maintainers": [
+    {
+      "name": "Giuseppe Astuti"
+    }
+  ],
+  "engines": {
+    "node": ">=14.19.1 <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}
